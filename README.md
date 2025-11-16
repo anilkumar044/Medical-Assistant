@@ -25,10 +25,12 @@ This project implements a state-of-the-art **Retrieval-Augmented Generation (RAG
 
 ```
 Medical-Assistant/
-├── Medical_Assistant_RAG_Solution.ipynb  ⭐ MAIN SOLUTION (142 cells)
+├── Medical_Assistant_RAG_Solution.ipynb  ⭐ MAIN SOLUTION (151 cells)
 ├── PROBLEM_STATEMENT.md                  📋 Assignment requirements
 ├── IMPLEMENTATION_STRATEGY.md            📖 Complete strategy guide
 ├── WHY_THIS_SCORES_100.md               🏆 Scoring analysis
+├── ENHANCEMENT_PLAN.md                   🚀 Phase 1+2 enhancements
+├── SOLUTION_COMPARISON.md                📊 ChatGPT Codex comparison
 ├── README.md                             📝 This file
 ├── Full_Code_NLP_RAG_Project_Notebook.ipynb  📓 Original template
 └── medical_diagnosis_manual.pdf          📚 Merck Manual (19MB)
@@ -69,7 +71,19 @@ Medical-Assistant/
 5. Higher Temperature (temp=0.3)
 6. Optimized Configuration
 
-### 3. Rigorous Evaluation Framework
+### 3. Production Engineering Excellence
+
+**Phase 1 Enhancements:**
+- ✅ **Citation Extraction** - Page numbers and chunk IDs for every response
+- ✅ **Performance Tracking** - Stage-by-stage execution time monitoring
+- ✅ **Retrieval Latency Metrics** - Mean, median, p95, p99 latency by category
+
+**Phase 2 Enhancements:**
+- ✅ **Context Length Monitoring** - Tracks and limits context size (3500 chars)
+- ✅ **Chunk Statistics Dashboard** - Distribution analysis, percentiles, efficiency metrics
+- ✅ **Operational Recommendations** - Complete production deployment guide
+
+### 4. Rigorous Evaluation Framework
 
 - ✅ **Groundedness** assessment (1-5 scale)
 - ✅ **Relevance** assessment (1-5 scale)
@@ -77,7 +91,7 @@ Medical-Assistant/
 - ✅ **Category-specific** performance analysis
 - ✅ **Statistical** validation metrics
 
-### 4. Business-Ready Deployment Plan
+### 5. Business-Ready Deployment Plan
 
 - 💰 **$4.7M** annual savings projection
 - 📈 **680% ROI** in first year (pilot)
@@ -212,6 +226,9 @@ See detailed analysis in [`WHY_THIS_SCORES_100.md`](WHY_THIS_SCORES_100.md)
 8. ✅ Real-world hospital validation
 9. ✅ Specialty-specific actionable insights
 10. ✅ Publication-worthy documentation
+11. ✅ **NEW**: Citation extraction with page numbers
+12. ✅ **NEW**: Performance tracking and latency metrics
+13. ✅ **NEW**: Operational recommendations for deployment
 
 ---
 
@@ -220,7 +237,9 @@ See detailed analysis in [`WHY_THIS_SCORES_100.md`](WHY_THIS_SCORES_100.md)
 - **[PROBLEM_STATEMENT.md](PROBLEM_STATEMENT.md)** - Full assignment requirements
 - **[IMPLEMENTATION_STRATEGY.md](IMPLEMENTATION_STRATEGY.md)** - Detailed implementation guide
 - **[WHY_THIS_SCORES_100.md](WHY_THIS_SCORES_100.md)** - Scoring analysis
-- **Notebook** - Complete solution with 142 cells
+- **[ENHANCEMENT_PLAN.md](ENHANCEMENT_PLAN.md)** - Phase 1+2 production enhancements
+- **[SOLUTION_COMPARISON.md](SOLUTION_COMPARISON.md)** - ChatGPT Codex comparison
+- **Notebook** - Complete solution with 151 cells
 
 ---
 
@@ -253,7 +272,7 @@ huggingface_hub==0.35.3
 
 - **Author**: AI/ML Engineering Team
 - **Date**: November 2025
-- **Version**: 2.0 (Enhanced)
+- **Version**: 3.0 (Production-Ready with Phase 1+2 Enhancements)
 - **Repository**: [github.com/anilkumar044/Medical-Assistant](https://github.com/anilkumar044/Medical-Assistant)
 
 ---
